@@ -181,7 +181,8 @@ public class LinearSearchAlgorithm {
         /*
          * 1. When the arrays are not sorted, the interpolation search performs better as it makes intelligent guesses about the location of the key
          * 2. When arrays were sorted the it becomes slower as a binary search will have been more efficient for sorted arrays.
-         * However, since the elements are not uniformly distributed, the linear search tends to perform as slower time.
+         * However, since the elements are not uniformly distributed, the linear search tends to perform as faster time.
+         * The run time for interpolation search is O(log(log(n))) for average case and O(n) for worst case
          */
         System.out.println("The Linear Time is: " +  linearTime + "ns");
         
