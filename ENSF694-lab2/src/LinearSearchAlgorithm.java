@@ -188,12 +188,11 @@ public class LinearSearchAlgorithm {
         
         System.out.println("The Interpolation time is: " + interpolationTime + "ns");
         
-        System.out.println("The interpolation time is better it takes less time to run and more efficient in larger n values. It reduces the number of comparisons");
-        
         System.out.println("The improved Linear Time is: " + improvedLinearTime + "ns");
         
-        System.out.println("The percentage of Improvements " + (improvedLinearTime / linearTime));
+       double time = (linearTime - improvedLinearTime) / linearTime;
         
+        System.out.println("The percentage of Improvements " + time);
         
     }
 }
